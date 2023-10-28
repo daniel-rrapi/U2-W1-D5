@@ -104,6 +104,7 @@ section {
 .trendingPosts h5 {
     font-size: 32px;
     color: #f2f2f2;
+    font-weight: 900;
    
 }
 .trendingContent {
@@ -152,6 +153,7 @@ section {
     height: 134px;
     gap: 10px;
     margin-bottom: 50px;
+    justify-content: space-between;
 }
 .main {
     display: flex;
@@ -162,8 +164,11 @@ aside {
     width: 25%;
     display: flex;
     order: 1;
-    /* justify-content: flex-start; */
     flex-direction: column;
+    height: 40vh;
+    position: sticky;
+    top: 109px;
+    align-items: flex-start;
 }
 aside p {
     display: flex;
@@ -174,8 +179,7 @@ aside p {
 .discoverMore {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 8px;
+    gap: 8px 58px;
 }
 .discoverMore span {
     background-color: #f2f2f2;
@@ -211,6 +215,7 @@ article {
 .articlesBody h3 {
     font-size: 20px;
     font-weight: 800;
+    
 }
 .articlesBody p {
     color: #6B6B6B;
@@ -224,6 +229,7 @@ article {
     gap: 7px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 .author {
     font-size: 13px;
